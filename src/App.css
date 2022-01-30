@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@300;400&family=Outfit:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
+  transition: all 0.2s;
+  overflow-x: hidden;
+}
+html {
+  font-size: 62.5%;
+  scroll-padding-top: 8rem;
+  font-family: "Montserrat", sans-serif;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+.main_div {
+  background-color: rgb(153, 153, 171);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.center_div {
+  width: 25rem;
+  background: #fff;
+  height: 40rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 15px 1px #00000088;
+  padding: 1rem 0;
+}
+.center_div h1 {
+  text-align: center;
+  font-size: 3rem;
+  background-color: rgb(193, 133, 193);
+  color: #fff;
+}
+input[type="text"] {
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.inBt {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inBt button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 60%;
+  background-color: #8566aa;
+  font-size: 35px;
+  margin-left: 10px;
+  box-sizing: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.inBt button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.center_div ol {
+  margin-top: 2rem;
+  list-style-type: none;
+}
+.center_div ol li {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.todo_style .fa-times {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8566aa;
+  border-radius: 50%;
+  margin: 0 1rem;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .fa-times:hover {
+  background: red;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 691px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 491px) {
+  html {
+    font-size: 45%;
+  }
+}
